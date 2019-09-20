@@ -8,11 +8,23 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+   
+    <h2>
+        Let me turn your ideas into great looking, functional websites and web applications.
+        </h2>
+        <div class="jumbotron">
+        <Image />
+        </div>
+
+        <p>I build fast, responsive, mobile first websites:</p>
+            <ul><li>Landing page (HTML, CSS, JavaScript)</li>
+            <li>CMS Integration (Wordpress - from scratch or theme customization)</li>
+            <li>Converting your Design into to a Landing Page or WordPress</li>
+            </ul>
+        
+
+
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
     </div>
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
