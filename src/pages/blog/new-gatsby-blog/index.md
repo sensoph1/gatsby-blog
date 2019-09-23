@@ -12,6 +12,6 @@ I pretty much used the 'gatsby fundamentals + intermediate tutorials'  from the 
 
 https://www.gatsbyjs.org/tutorial/
 
-Below is just a screenshot of where I started since its going to be a WIP.
+<!-- Below is just a screenshot of where I started since its going to be a WIP. (image wasnt ) -->
 
-![](./images/baseline.png )
+<!-- ![](./images/baseline.png ) -->
