@@ -4,21 +4,20 @@ import { Link } from "gatsby"
 const Header = ({ siteTitle, menuLinks }) => (
   <header
     style={{
-      background: "rebeccapurple",
+      background: "lightblue",
       marginBottom: "1.45rem",
     }}
   >
-    <div
+    <div class='header'
       style={{
-        background: "rebeccapurple",
+        background: "lightblue",
         marginBottom: "1.45rem",
       }}
     >
-      <div
+      <div class="menu"
         style={{
           margin: "0 auto",
           maxWidth: 960,
-          padding: "1.45rem 1.0875rem",
           display: "flex",
           justifyItems: "space-between",
           alignItems: "center",
@@ -28,7 +27,7 @@ const Header = ({ siteTitle, menuLinks }) => (
           <Link
             to="/"
             style={{
-              color: "white",
+              color: "red",
               textDecoration: "none",
             }}
           >
@@ -44,9 +43,10 @@ const Header = ({ siteTitle, menuLinks }) => (
                   style={{
                     listStyleType: `none`,
                     padding: `1rem`,
+                    
                   }}
                 >
-                  <Link style={{ color: `white` }} to={link.link}>
+                  <Link style={{ color: `red` }} to={link.link}>
                     {link.name}
                   </Link>
                 </li>

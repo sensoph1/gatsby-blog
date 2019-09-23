@@ -5,16 +5,15 @@ html {
       margin-top:25px !important;
       border-radius: 5px;
 }
-  .jumbotron, .blog-link{
+  .jumbotron{
       
-      width:100%;
+      width:30%;
       
-      margin:10% auto;
+      margin:10% auto ;
       text-align: center;
   }
-  .jumbotron p img {
-    border-radius: 200px;
-    width: 32%;
+  .jumbotron img {
+    border-radius: 65%;
     margin-bottom: 35px;
     padding: 4px;
     background: slategray;

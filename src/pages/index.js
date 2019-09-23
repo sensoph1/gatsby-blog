@@ -8,7 +8,8 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-   
+    <div style={{ margin: `3rem auto`, maxWidth: 600 }}>
+
     <h2>
         Let me turn your ideas into great looking, functional websites and web applications.
         </h2>
@@ -26,7 +27,7 @@ const IndexPage = () => (
 
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    </div>
   </Layout>
 )
 
