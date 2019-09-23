@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 import React from "react"
 import { Link } from "gatsby"
-import { rhythm } from "../utils/typography"
+// import { rhythm } from "../utils/typography"
 
 const Header = ({ siteTitle, menuLinks }) => (
   <header
@@ -10,16 +10,17 @@ const Header = ({ siteTitle, menuLinks }) => (
       marginBottom: "1.45rem",
     }}
   >
-    <div class='header'
+    <div
       style={{
         background: "lightblue",
         marginBottom: "1.45rem",
       }}
     >
-      <div class="menu"
+      <div
         style={{
           margin: "0 auto",
           maxWidth: 960,
+          padding: "1.45rem 1.0875rem",
           display: "flex",
           justifyItems: "space-between",
           alignItems: "center",
@@ -29,7 +30,7 @@ const Header = ({ siteTitle, menuLinks }) => (
           <Link
             to="/"
             style={{
-              color: "red",
+              color: "white",
               textDecoration: "none",
             }}
           >
@@ -48,7 +49,7 @@ const Header = ({ siteTitle, menuLinks }) => (
                     
                   }}
                 >
-                  <Link style={{ color: `red` }} to={link.link}>
+                  <Link style={{ color: `white` }} to={link.link}>
                     {link.name}
                   </Link>
                 </li>
