@@ -1,6 +1,8 @@
 import PropTypes from "prop-types"
 import React from "react"
 import { Link } from "gatsby"
+import { rhythm } from "../utils/typography"
+
 const Header = ({ siteTitle, menuLinks }) => (
   <header
     style={{

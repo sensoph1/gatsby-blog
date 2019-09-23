@@ -8,9 +8,12 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { css } from "@emotion/core"
 
 import Header from "./header"
 import "./layout.css"
+import "../styles/global.css"
+import { rhythm } from "../utils/typography"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -30,7 +33,7 @@ const Layout = ({ children }) => {
   return (
     <>
      <Header menuLinks={data.site.siteMetadata.menuLinks} siteTitle={data.site.siteMetadata.title} />
-      <div
+      <div 
         style={{
           margin: `0 auto`,
           maxWidth: 960,
@@ -38,6 +41,15 @@ const Layout = ({ children }) => {
           paddingTop: 0,
         }}
       >
+         <div
+    css={css`
+      margin: 0 auto;
+      max-width: 700px;
+      padding: ${rhythm(2)};
+      padding-top: ${rhythm(1.5)};
+    `}
+  ></div>
+        
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with

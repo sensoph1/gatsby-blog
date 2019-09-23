@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -8,13 +7,14 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div style={{ margin: `3rem auto`, maxWidth: 600 }}>
+    <div class="container">
 
     <h2>
         Let me turn your ideas into great looking, functional websites and web applications.
         </h2>
         <div class="jumbotron">
         <Image />
+        {/* <img src="./light-bulb-unsplash.jpg" /> */}
         </div>
 
         <p>I build fast, responsive, mobile first websites:</p>
