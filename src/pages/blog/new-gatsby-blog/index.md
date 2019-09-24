@@ -2,7 +2,7 @@
 date: 2019-09-23T20:43:19.220Z
 title: New Gatsby Blog
 description: New Gatsby Blog
-# featuredImage: ./images/awesome-image.png
+path: /New-Gatsby-Blog
 
 ---
 
@@ -14,4 +14,4 @@ https://www.gatsbyjs.org/tutorial/
 
 <!-- Below is just a screenshot of where I started since its going to be a WIP. (image wasnt ) -->
 
-<!-- ![](./images/baseline.png ) -->
+![](baseline.png )

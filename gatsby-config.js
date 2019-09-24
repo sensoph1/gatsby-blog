@@ -28,15 +28,28 @@ module.exports = {
     
     `gatsby-plugin-react-helmet`,
     {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 970,
+            },
+          },
+        ],
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `src`,
-        path: `${__dirname}/src/`,
+        path: `${__dirname}/src`,
       },
-    },
+    },    
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
-        `gatsby-plugin-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
