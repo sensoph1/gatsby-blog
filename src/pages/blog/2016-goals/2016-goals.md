@@ -1,5 +1,5 @@
 ---
-path: 2016-goals
+path: 2016-goals1
 date: 2016-09-10T20:43:19.220Z
 title: 2016 goals
 description: 2016 goals
